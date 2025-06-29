@@ -17,7 +17,7 @@ Copyrigth Luiz Guilherme (luizgeh), all rigths reserved.
 
 */
 
-requite('dotenv').config();
+require('dotenv').config();
 
 const { Client, REST, Routes } = require('discord.js');
 const bot = new Client({intents: ['Guilds', 'GuildMembers', 'GuildMessages', 'MessageContent']});
